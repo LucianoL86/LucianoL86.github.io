@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: 100%;
+    background-color: darkgreen;
+}
+
+header {
+    background-color: #4B4B4B;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    color: #fff;
+    font-family: Book Antiqua, Helvetica, sans-serif;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar-nav {
+    font-size: 20px;
+}
+
+.imagen {
+    margin: 10px 220px;
+    
+}
+
+.parrafo {
+    text-align: center;
+    font-size: 13px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h2, h3 {
+    text-align: center;
+    font-family: Bookman Old Style, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parrafo2 {
+    margin-left: 30px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.video {
+    margin: 10px 450px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: darkslategray;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+footer p {
+    color: #fff;
+    padding-top: 28px;
+    margin: 0;
+    float: left;
+    font-size: 20px;
+}
+
+.whatsapp {
+    margin: 25px 30px;
+    float: left;
+}
+
+.mail {
+    margin: 25px 0;
+    float: left;
+}
+
+.copy {
+    color: #fff;
+    float: right;
+    padding: 30px 30px ;
+    font-size: 15px;
+}
+

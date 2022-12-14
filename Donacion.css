@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(222,184,135,.8);
+    
+}
+
+.navbar {
+    margin-bottom: 15px;
+}
+
+.navbar-nav {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 3px 5px 5px blue;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+p {
+    margin: 40px 70px;
+    font-size: 18px;
+}
+
+
+.formulario {
+    width: 400px;
+    background-color: #24303c;
+    padding: 10px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 4px;
+    font-family: calibri;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.formulario h3 {
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+
+.datos{
+    width: 100%;
+    background-color: #24303c;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    border: 1px solid #1f53c5;
+    font-family: calibri;
+    font-size: 12px;
+    color: white;
+}
+
+.formulario p {
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.formulario a {
+    color: white;
+    text-decoration: none;
+}
+
+.formulario a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.formulario .boton {
+    width: 100%;
+    background-color: #1f53c5;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.label {
+    font-family: calibri;
+    font-size: 15px;
+}
+
+.formulario h3 {
+    font-family: calibri;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 2px solid #eee;
+    padding: 5px;
+}
+
+.comentario {
+    width: 100%;
+    background-color: #24303c;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    border: 1px solid #1f53c5;
+    font-family: calibri;
+    font-size: 12px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: darkslategray;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+footer p {
+    color: #fff;
+    padding-top: 28px;
+    margin: 0;
+    float: left;
+    font-size: 20px;
+}
+
+.whatsapp {
+    margin: 25px 30px;
+    float: left;
+}
+
+.mail {
+    margin: 25px 0;
+    float: left;
+}
+
+.copy {
+    color: #fff;
+    float: right;
+    padding: 30px 30px ;
+    font-size: 15px;
+}
+
+.monto {
+    width: 100%;
+    background-color: #24303c;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    border: 1px solid #1f53c5;
+    font-family: calibri;
+    font-size: 12px;
+    color: white;
+}

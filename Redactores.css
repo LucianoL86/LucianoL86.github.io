@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkolivegreen;
+    background-repeat: repeat;
+}
+
+div h1 {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+.parrafo {
+    width: 510px;
+    height: 380px;
+    border-color: 3px solid black;
+    background-color: lightgrey;
+    margin-top: 30px;
+    margin-left: 400px;
+    padding: 50px 40px 10px 40px;
+    font-size: 20px;
+    
+}
+
+.imagen1 {
+    margin: 50px 100px;
+    float: left;
+}
+
+.imagen2 {
+    margin: 0px 100px;
+    float: left;
+}
+
+.imagen3 {
+    margin: 50px 100px;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: darkslategray;
+    margin-top: 950px
+}
+
+footer p {
+    color: #fff;
+    padding-top: 28px;
+    margin: 0;
+    float: left;
+    font-size: 20px;
+}
+
+.whatsapp {
+    margin: 25px 30px;
+    float: left;
+}
+
+.mail {
+    margin: 25px 0;
+    float: left;
+}
+
+.copy {
+    color: #fff;
+    float: right;
+    padding: 30px 30px ;
+    font-size: 15px;
+}
+

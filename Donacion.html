@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realizá tu donación</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="Donacion.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="Cambio climático.html">Cambio climático</a>
+                        <a class="nav-link" href="Derechos humanos.html">Derechos humanos</a>
+                        <a class="nav-link" href="Pueblos indígenas.html">Pueblos indígenas</a>
+                        <a class="nav-link" href="Donacion.html">Donación</a>
+                        <a class="nav-link" href="Colaboradores.html">Colaboradores</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <h1>Ingrese su donación y déjenos su consulta</h1>
+    </header>
+    <main>
+        <h2>¿Dónde va tu dinero?</h2>
+        <p>
+            Cada donativo que haces sirve para apoyar nuestro trabajo en todo el mundo, desde ayudar a nuestros equipos de
+            investigación a destapar abusos contra los derechos humanos que están ocultos, hasta financiar la labor vital de 
+            activismo y campañas que nos permite cuestionar a quienes están en el poder. <br>
+            Nada de esto sería posible sin tu apoyo.
+        </p>    
+    <form class="formulario">
+        <h3>Ingrese sus datos</h3>
+        <label for="Nombre" class="label">Nombre</label>
+        <input class="datos" type="text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre">
+        <label for="Apellido" class="label">Apellido</label>
+        <input class="datos" type="text" name="Apellido" id="Apellido" placeholder="Ingrese su apellido">
+        <label for="Mail" class="label">Correo electrónico</label>
+        <input class="datos" type="email" name="Correo electrónico" id="Mail" placeholder="Ingrese su correo eléctronico">
+        <label for="Comentario" class="label">Comentario</label>
+        <textarea class="comentario" name="Comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese su comentario"></textarea>
+        <input class="boton" type="submit" value="Enviar">
+    </form>
+    <form class="formulario">
+        <label for="Monto" class="label">Ingrese monto</label>
+        <input class="monto" type="number" name="Monto" id="monto" placeholder="Ingrese monto"><br>
+        <label>Seleccione moneda:</label>
+        <select name="moneda" id="moneda">
+            <option value="Elija aquí">Moneda</option>
+            <option value="Pesos">Peso</option>
+            <option value="Dólar">Dólar</option>
+            <option value="Euro">Euro</option>
+        </select>
+        <input class="boton" type="submit" value="Enviar">
+    </form>
+    </main>
+    <footer>
+        <p>Contacto:</p>
+        <a href="https://api.whatsapp.com/send?phone=3364386188" target="_blank" class="whatsapp"><img src="img/WhatsAppwebp.webp" alt="whatsapp" width="40px" height="40px"></a>
+        <a href="mailto:lucianolanza@hotmail.com" class="mail"><img src="img/correo.jpg" alt="sobre" width="40px" height="40px"></a>
+        <p class="copy">Argentina &copy 2022, todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
